@@ -10,5 +10,5 @@ Astryx is now finally out to the public! We forgot to add an actual apps page bu
 none the less enjpoy Astryx as Afilite is over and have fun!
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo]([https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png](https://raw.githubusercontent.com/brun0-xyz/Astryx/refs/heads/main/imgs/astryxisbetterthenafilite.png))
 
