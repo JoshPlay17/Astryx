@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    font-family: "Lexend", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.launcher {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.launcher h1 {
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+option {
+    background: #111;
+    color: white;
+}

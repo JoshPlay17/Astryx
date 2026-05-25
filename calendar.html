@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Assignments - BrainPOP</title>
+<link rel="icon" type="image/x-icon" href="/imgs/bp.ico">
+<link rel="stylesheet" href="/css/main.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LT1SW5Z351"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LT1SW5Z351');
+</script>
+</head>
+
+<body>
+<div id="particles-js"></div>
+
+<nav class="navbar">
+
+    <div class="nav-left">
+        <img src="/imgs/astryxisbetterthenafilite.png">
+        <div class="logo-text">Astryx</div>
+    </div>
+
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/math.html">Games</a>
+        <a href="/science.html">Apps</a>
+        <a href="/calendar.html">Settings</a>
+    </div>
+</nav>
+
+<br><br><br><br><br><br><br>
+<div class="settingsbox">
+        <h2>Tab Cloaking</h2>
+        <p>Cloaks to change page title and icon</p>
+        <div class="box-actions">
+        <select id="presetSelect">
+        <option value="google">google</option>
+        <option value="googleclassroom">google classroom</option>
+        <option value="googledrive">google drive</option>
+        <option value="chrometab">chrome new tab</option>
+        <option value="gmail">gmail</option>
+        <option value="bing">bing</option>
+        <option value="desmos">desmos calculator</option>
+        <option value="wikipedia">wikipedia</option>
+        </select>
+        <div class="box-actions">
+        <button class="btn" id="saveButton">select cloak</button>
+        <button class="secondary" id="resetButton">reset cloak</button>
+        <p id="success" style="display: none;">success message here</p>
+    </div>
+</div>
+</div>
+
+<div class="settingsbox">
+        <h2>Panic Keys</h2>
+        <p>Set a key to escape the site if someone is near</p>
+        <div class="box-actions">
+        <div class="search-box">
+        <input type="text" id="panicKey" placeholder="choose a key combination" readonly>
+        </div>
+        <div class="search-box">
+        <input  type="url" id="search" id="panicUrl" placeholder="https://www.desmos.com/scientific">
+        </div>
+        <div class="box-actions">
+        <button onclick="saveSettings()">set panic key</button>
+        <p id="success-panic" style="display: none;">success message here</p>
+        </div>
+</div>
+</div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="/js/p.js"></script>
+<script src="/js/settings/cloak.js"></script>
+<script src="/js/settings/data.js"></script>
+<script src="/js/settings/settings.js"></script>
+</body>
+</html>
