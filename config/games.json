@@ -788,5 +788,10 @@
     "link": "modern/volleyrandom/index.html",
     "imgSrc": "modern/volleyrandom/splash.png",
     "title": "Volley Random"
+  },
+  {
+    "link": "modern/orangeroulette/index.html",
+    "imgSrc": "modern/orangeroulette/splash.png",
+    "title": "Orange Roulette"
   }
 ]

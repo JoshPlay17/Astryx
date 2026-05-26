@@ -2,7 +2,7 @@ const subtitles = [
     "Explore games, apps, and more.",
     "Released!",
     "Better than Afilite.",
-    "Over 140 games just for you.",
+    "Over 150 games just for you.",
     "Opinions on Astryx v0.2?",
     "A little late to the party."
   ];
