@@ -735,11 +735,6 @@
     "title": "A Small World Cup"
   },
   {
-    "link": "modern/basketball-stars/index.html",
-    "imgSrc": "modern/basketball-stars/icon.png",
-    "title": "Basketball Stars"
-  },
-  {
     "link": "modern/basketballrandom/index.html",
     "imgSrc": "modern/basketballrandom/br.jpg",
     "title": "Basketball Random"
@@ -793,5 +788,10 @@
     "link": "modern/orangeroulette/index.html",
     "imgSrc": "modern/orangeroulette/splash.png",
     "title": "Orange Roulette"
+  },
+  {
+    "link": "modern/gdlite/index.html",
+    "imgSrc": "modern/gdlite/logo.png",
+    "title": "Geometry Dash Lite"
   }
 ]
