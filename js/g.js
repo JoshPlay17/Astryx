@@ -28,7 +28,7 @@ function renderGames(list) {
 
     game.innerHTML = `
       <div class="game-tile">
-        <img class="game-icon" src="${project.imgSrc}" alt="icon" />
+        ${project.imgSrc ? `<img class="game-icon" src="${project.imgSrc}" alt="icon" />` : ''}
         <p class="game-title">${project.title}</p>
       </div>
     `;
